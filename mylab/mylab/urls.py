@@ -21,4 +21,5 @@ from lab import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('register', views.Register),
+    path('', views.index),
 ]
