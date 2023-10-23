@@ -23,4 +23,4 @@ def Register(request):
     return JsonResponse({ "message": "All set !" }, safe=False)
 
 def index(request):
-    return JsonResponse(data, safe=False)
+    return JsonResponse(tempData, safe=False)
